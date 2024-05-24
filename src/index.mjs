@@ -6,7 +6,7 @@ const app = express();
 const port = 8080;
 app.use(express.json());
 
-app.post("/calculate", (req, res) => {
+app.post('/calculate', (req, res) => {
     const postData = req.body.allFlights;
 
     if (!Array.isArray(postData) || postData.some(d => d.length !== 2)) {
@@ -26,3 +26,6 @@ app.listen(port, () => {
 });
 
 export default app;
+
+
+[["IND", "EWR"], ["SFO", "ATL"], ["GSO", "IND"], ["ATL", "GSO"]]
