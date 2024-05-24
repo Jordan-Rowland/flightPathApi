@@ -17,7 +17,6 @@ This endpoint accepts a JSON object with a single key, `allFlights`, containing 
   ```json
   {
       "allFlights": [
-          ["SFO", "EWR"],
           ["ATL", "EWR"],
           ["SFO", "ATL"]
       ]
