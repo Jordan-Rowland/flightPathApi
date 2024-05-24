@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import findFlightPath from '../src/services/flightPath.js';
+import findFlightPath from '../src/services/flightPath.mjs';
 
 
 describe('findFlightPath', () => {
