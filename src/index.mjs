@@ -26,6 +26,3 @@ app.listen(port, () => {
 });
 
 export default app;
-
-
-[["IND", "EWR"], ["SFO", "ATL"], ["GSO", "IND"], ["ATL", "GSO"]]
