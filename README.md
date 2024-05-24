@@ -14,8 +14,6 @@ Examples:
 Specifications: 
 Your microservice must listen on port 8080 and expose the flight path tracker under the /calculate endpoint.
 
-Create a private GitHub repo and add https://github.com/taariq and https://github.com/Cieloc as collaborators to the project.
-
 Define and document the format of the API endpoint in the README.
 
 Use JavaScript and any tools to help you best accomplish the task.
